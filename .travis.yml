@@ -1,0 +1,12 @@
+sudo: required
+dist: trusty
+
+language: go
+go:
+  - "1.12"
+
+before_script:
+
+script:
+  - make install
+  - make test
