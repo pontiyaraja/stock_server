@@ -4,7 +4,7 @@ ADD . $GOPATH/src/github.com/pontiyaraja/stock_server
 
 WORKDIR $GOPATH/src/github.com/pontiyaraja/stock_server/cmd
 
-#RUN go install -v
+RUN go install -v
 
 # Install the package
 RUN go install $GOPATH/src/github.com/pontiyaraja/stock_server/cmd
